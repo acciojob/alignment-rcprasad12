@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+
+/* All tables */
+.middle {
+  border: 1px solid black;
+  border-spacing: 1px;
+  border-collapse: separate;
+}
+
+/* Table cells */
+.middle td,
+.middle th {
+  border: 1px solid black;
+  padding: 1px;
+}
+
+/* Center class */
+.center {
+  text-align: center;
+}
+
+/* Right class */
+.right {
+  text-align: right;
+}
+
+/* Table 3 colors */
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+/* Image */
+#t-image img {
+  width: 200px;
+}
